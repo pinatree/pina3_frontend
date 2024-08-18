@@ -1,0 +1,25 @@
+.userStatusCaption {
+    color: white;
+    font-size: 24pt;
+}
+.userStatusesTable {
+    color: white;
+    border: 1px solid white; /* Рамка вокруг таблицы */
+}
+
+.userStatusesTD, .userStatusesTH {
+    padding: 3px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid white; /* Рамка вокруг таблицы */
+    background-color: rgb(53, 73, 255);
+}
+
+.userStatusesTH {
+    text-align: center;
+    background: rgb(19, 0, 126); /* Цвет фона */
+    color: white; /* Цвет текста */
+}
+
+.td_fitwidth {
+    width: 1px;
+    white-space: nowrap;
+}
